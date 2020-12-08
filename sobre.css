@@ -1,0 +1,490 @@
+body
+{
+	background-color: #f6f5f5;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+section
+{
+	width: 100%;
+	height: 95vh;
+	background-image: url("img/bg-sobre.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 5px;
+}
+
+/* Estilo navegador */
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #eceff4;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+	border-radius: 5px;
+}
+
+nav ul
+{
+	display: flex;
+}
+
+nav ul li a
+{
+	margin: 30px;
+	font-family: myriad pro regular;
+	color: #505050;
+	font-size: 15px;
+	font-weight: 700;
+}
+/* Estilo do primeiro link do menu */
+
+.tabs-inner .section:first-child ul {
+
+    margin-top: -1px;
+    
+    border: none;
+    
+    }
+    
+    
+    /* Estilo da barra de navegação geral */
+    
+    .tabs-inner .widget ul {
+    
+    background: #F8E6E0;
+    
+    border: none;
+    
+    text-align: center;
+    
+    }
+    
+    /* Estilo dos links individual*/
+    
+    .tabs-inner .widget li a {
+    
+    font: 12px Arvo;
+    
+    border: none;
+    
+    color: #ffffff;
+    
+    }
+    
+    /* Estilo dos links com hover */
+    
+    .tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+    
+
+    color: #F8E6E0;
+    
+    background-color: #ffffff;
+    
+    text-decoration: none;
+    
+    }
+    
+    
+    #navigationbar {
+    
+    width: 100%; /* alterar a largura da barra de navegação */
+    
+    height: 35px; /* alterar a altura da barra de navegação */
+    
+    }
+    
+    
+    #navigationcss { 
+    
+    margin: 0 auto;
+    margin-right: 1px;
+    
+    padding: 0; 
+    
+    }
+    
+    
+    #navigationcss ul { 
+    
+    float: none; 
+    
+    list-style: none; 
+    
+    margin: 0; 
+    
+    padding: 0; 
+    
+    overflow: visible; 
+    
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around
+    ;
+
+    flex-direction: column;
+    
+    
+    }
+    
+    
+    #navigationcss li a, #navigationcss li a:link, #navigationcss li a:visited {
+
+    
+    color: #000; /* alterar a cor dos links principais */
+    
+    display: block;
+    
+    margin: 0;
+    
+    padding: 17px 40px;  /* change the first number for the top/bottom spacing, and the second number for left/right spacing */
+    
+    }
+    
+    
+    #navigationcss li a:hover, #navigationcss li a:active {
+
+    transition-duration: .7s;
+    color: #f0450c ; /* altere a cor dos links quando está com mouse encima*/
+    
+    margin-top: 3px;
+    
+	padding: 10px 25px; /* Certifique-se de que estes sejam os mesmos que a seção acima! */
+	
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+
+
+    }
+    
+    
+    #navigationcss li li a, #navigationcss li li a:link, #navigationcss li li a:visited {
+    transition-duration: 1s;
+    
+	background: #0431fd;  /* altere a cor de fundo da caixa suspensa */
+    
+    width: 100px;
+    
+    color: #fff8f8; /* altere a cor dos links suspensos */
+    
+    float: none;
+    
+    margin: 0;
+
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+    
+    padding: 10px 15px; /* semelhante ao acima, altere o espaçamento em torno dos links */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    
+    }
+    
+    
+    #navigationcss li li a:hover, #navigationcss li li a:active {
+    
+    background: #9165fa ; /*altere a cor de fundo dos itens suspensos no hover*/
+    
+    color: rgb(10, 0, 0); /* altere a cor dos links suspensos no hover */
+    
+    padding: 7px 10px;  /*mantenha o mesmo que a seção acima */
+    
+    }
+    
+    
+    #navigationcss li {
+        
+    
+    float: none; 
+    
+    display: inline-block; 
+    
+    list-style: none; 
+    
+    margin: 0; 
+    
+    padding: 0; 
+    
+    }
+    
+    
+    #navigationcss li ul { 
+    
+    z-index: 9999; 
+    
+    position: absolute; 
+    
+    left: -999em; 
+    
+    height: auto; 
+    
+    width: 150px; 
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    }
+    
+    
+    #navigationcss li:hover ul, #navigationcss li li:hover ul, #navigationcss li li li:hover ul, #navigationcss li.sfhover ul, #navigationcss li li.sfhover ul, #navigationcss li li li.sfhover ul { 
+    
+    left: auto; 
+    
+    } 
+    
+.logo img{
+	height: 50px;
+	width: 50px;
+	padding-right: 10px;
+	padding-left: 0px;
+	padding-bottom: .5px;
+	padding-top: 1px;
+}
+
+.logo
+{
+	font-family: Arial;
+	color: #000000;
+	font-size: 24px;
+}
+
+.active
+{
+	font-weight: bold;
+	color: #2a2a2d;
+}
+
+/* Estilo Textos */
+.conteudo-texto p:nth-child(1)
+{
+	font-family: calibri;
+	font-weight: bold;
+	color: #070763;
+	font-size: 23.5px;
+
+}
+
+.conteudo-texto p:nth-child(2)
+{
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: rgb(38, 6, 94);
+	font-size: 60px;
+}
+
+.conteudo-texto p:nth-child(3)
+{
+	font-family: myriad pro regular;
+	color: #0e0101;
+	font-size: 26px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.conteudo-texto p:nth-child(4)
+{
+	font-family: calibri;
+	font-weight: bold;
+	color: #070763;
+	font-size: 23.5px;
+	text-align: center;
+
+}
+
+.conteudo-texto 
+{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+
+.conteudo-texto 
+{
+	position: absolute;
+	left: 13%;
+	top: 42%;
+	transform: translate(-13%, -42%);
+}
+
+.conteudo-texto button
+{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+}
+
+
+/* Estilo Imagem banner sem fundo */
+
+.imgbg
+{
+	height: 550px;
+	position: absolute;
+	bottom: 0px;
+    left: 83.5%;
+	transform: translateX(-70%);
+
+}
+
+
+
+
+
+
+
+.conteudo-sobre
+{
+	width: 80%;
+	height:500px;
+	background-color: #f2f3ff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7% auto 20px auto;
+	position: relative;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+
+/* Estilo Imagem Sobre eu */
+.conteudo-sobre img
+{
+	height: 250px;
+  
+}
+
+.texto-sobre 
+{
+	width: 550px;
+}
+
+.cotexto-sobre  p:nth-child(1)
+{
+	color: #403e3e;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 0px;
+
+}
+
+.texto-sobre  p:nth-child(2)
+{
+	color: #3e3e3e;
+	font-size: 20px;
+	font-family: myriad pro;
+	font-weight: bold;
+	line-height: 5px;
+}
+
+.texto-sobre p:nth-child(3),
+.texto-sobre p:nth-child(4)
+{
+	color: #7e7d7d;
+	font-family: calibri;
+	font-size: 25px;
+}
+
+.texto-sobre button
+{
+	width: 120px;
+	height: 40px;
+	color: #ffffff;
+	outline: none;
+	border:none;
+	font-family: calibri;
+	background-color: #262525;
+}
+
+
+/* Seção de Serviços  */
+
+
+
+/* Seção footer */
+
+footer
+{
+	height: 200px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    position: relative;
+	background-image: url('img/banner.png');
+	border-radius: 2%;
+	box-shadow: rgba(0,0,0,0.5);
+}
+
+footer p
+{
+	font-family: Arial Black;
+	width: 300px;
+}
+
+footer p:nth-child(1)
+{
+	font-weight: bolder;
+	color: #f3f3f5;
+	background-color: rgba(39, 45, 51, 0.2);
+	line-height: 28px;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 0;
+	box-shadow: rgba(0,0,0,1);
+
+}
+
+footer p:nth-child(2)
+{
+	font-size: 16px;
+	color: #c3f804;
+	width: 700px;
+	text-align: center;
+	padding-top: 0;
+	margin-top:0;
+	margin-bottom: 50px;
+}
+
+.copy
+{
+    margin-top: 10px;
+    padding-top: 3px;
+	color: #9c9b9b;
+	font-size: 17px;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	transform: translateX(-50%);
+	text-align: center;
+}
